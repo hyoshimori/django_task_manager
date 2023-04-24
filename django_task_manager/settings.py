@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ensv#zyz53+^ol#5nov@f%yapu^-gud5ozq3&kj$x12z_d$_@=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["<hyoshimori>.pythonanywhere.com"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -122,7 +122,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-import os
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
