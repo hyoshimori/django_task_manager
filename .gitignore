@@ -1,0 +1,24 @@
+# .gitignore
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media
+
+# Virtual environment
+venv/
+myvenv/
+env/
+myenv/
+
+# VS Code specific files
+.vscode/
+
+# PyCharm specific files
+.idea/
+
+# macOS specific files
+.DS_Store
